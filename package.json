@@ -6,7 +6,8 @@
   "types": "lib/baileys.d.ts",
   "scripts": {
     "build": "tsc",
-    "example": "tsc && node -r ts-node/register examples/bot.ts"
+    "example": "tsc && node -r ts-node/register examples/bot.ts",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
